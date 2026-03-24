@@ -1,0 +1,141 @@
+/* xl */
+@media(max-width:1399px){
+    .container{
+        max-width:1140px;
+    }
+.w-xl-3{
+    width:33.33%;
+}
+}
+
+/* lg */
+@media(max-width:1199px){
+    .container{
+        max-width:960px;
+    }
+    .w-lg-1{
+        width:100%;
+    }
+    .w-lg-2{
+        width:50%;
+    }
+    .w-lg-3{
+        width:33.33%;
+    }
+}
+
+/* md */
+@media(max-width:991px){
+    .container{
+        max-width:720px;
+    }
+    nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(0,0,0,0.85);
+    z-index: 999;
+    padding: 20px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .toggle{
+        display:flex;
+    }
+     .w-md-1{
+        width:100%;
+     }
+     .w-md-3{
+        width:33.33%;
+     }
+     .w-md-2{
+        width:50%;
+     }
+     .content .tag h3{
+        font-size:12px;
+     }
+    .content .desc h3{
+        font-size:12px;
+     }
+     .passion-center ::before {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: -45px;
+        background-color: rgb(255, 255, 255);
+        border: 4px solid black;
+        top: -121px;
+        text-align: center;
+        clip-path: polygon(evenodd, 25% 25%, 50% 25%, 75% 50%, 50% 75%, 25% 50%, 37.5% 37.5%, 37.5% 62.5%, 62.5% 62.5%, 62.5% 37.5%, 50% 37.5%, 62.5% 50%, 50% 62.5%, 37.5% 50%, 43.75% 43.75%, 50% 43.75%, 56.25% 50%, 50% 56.25%, 43.75% 50%, 46.88% 46.88%, 53.13% 46.88%, 53.13% 53.13%, 46.88% 53.13%, 46.88% 46.88%, 50% 43.75%, 56.25% 43.75%, 56.25% 56.25%, 43.75% 56.25%, 43.75% 43.75%, 50% 37.5%, 37.5% 37.5%, 50% 25%, 75% 25%, 75% 75%, 25% 75%, 0% 50%, 50% 0%, 100% 50%, 50% 100%, 25% 75%);
+        background-color: #02094b;
+        content: "";
+    }
+    #dots {
+        position: absolute;
+        width: 100%;
+        height: 879px;
+        top: 0;
+        background: #495D63;
+        background: -webkit-linear-gradient(top, #0fb8ad, #495D63);
+        z-index: -1;
+    }
+}
+
+/* sm */
+@media(max-width:767px){
+    .container{
+        max-width:540px;
+    }
+    .w-sm-1{
+        width:100%;
+    }
+    .w-sm-2{
+        width:50%;
+    }
+    .w-sm-3{
+        width:33.33%;
+    }
+    .passion-center ::before {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: -45px;
+        background-color: rgb(255, 255, 255);
+        border: 4px solid black;
+        top: -129px;
+        text-align: center;
+        clip-path: polygon(evenodd, 25% 25%, 50% 25%, 75% 50%, 50% 75%, 25% 50%, 37.5% 37.5%, 37.5% 62.5%, 62.5% 62.5%, 62.5% 37.5%, 50% 37.5%, 62.5% 50%, 50% 62.5%, 37.5% 50%, 43.75% 43.75%, 50% 43.75%, 56.25% 50%, 50% 56.25%, 43.75% 50%, 46.88% 46.88%, 53.13% 46.88%, 53.13% 53.13%, 46.88% 53.13%, 46.88% 46.88%, 50% 43.75%, 56.25% 43.75%, 56.25% 56.25%, 43.75% 56.25%, 43.75% 43.75%, 50% 37.5%, 37.5% 37.5%, 50% 25%, 75% 25%, 75% 75%, 25% 75%, 0% 50%, 50% 0%, 100% 50%, 50% 100%, 25% 75%);
+        background-color: #02094b;
+        content: "";
+    }
+    .passion-left ::after {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: -44px;
+        background-color: rgb(255, 255, 255);
+        border: 4px solid black;
+        top: 294px;
+        content: "";
+        clip-path: polygon(evenodd, 25% 25%, 50% 25%, 75% 50%, 50% 75%, 25% 50%, 37.5% 37.5%, 37.5% 62.5%, 62.5% 62.5%, 62.5% 37.5%, 50% 37.5%, 62.5% 50%, 50% 62.5%, 37.5% 50%, 43.75% 43.75%, 50% 43.75%, 56.25% 50%, 50% 56.25%, 43.75% 50%, 46.88% 46.88%, 53.13% 46.88%, 53.13% 53.13%, 46.88% 53.13%, 46.88% 46.88%, 50% 43.75%, 56.25% 43.75%, 56.25% 56.25%, 43.75% 56.25%, 43.75% 43.75%, 50% 37.5%, 37.5% 37.5%, 50% 25%, 75% 25%, 75% 75%, 25% 75%, 0% 50%, 50% 0%, 100% 50%, 50% 100%, 25% 75%);
+        background-color: #02094b;
+    }
+}
+
+
+/* xs */
+@media(max-width:575px){
+    .container{
+        max-width:100%;
+    }
+    .w-xl-1{
+        width:100%;
+    }
+
+}

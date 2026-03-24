@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Playwrite FR Moderne';
+    src: url('PlaywriteFRModerne-Regular.woff2') format('woff2'),
+        url('PlaywriteFRModerne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playwrite FR Moderne';
+    src: url('PlaywriteFRModerne-ExtraLight.woff2') format('woff2'),
+        url('PlaywriteFRModerne-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playwrite FR Moderne';
+    src: url('PlaywriteFRModerne-Light.woff2') format('woff2'),
+        url('PlaywriteFRModerne-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playwrite FR Moderne';
+    src: url('PlaywriteFRModerne-Thin.woff2') format('woff2'),
+        url('PlaywriteFRModerne-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

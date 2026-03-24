@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- slick-slider -->
+    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+    <!-- remix -->
+    <link rel="stylesheet" href="remix/remixicon.css" type="text/css">
+    <!-- font -->
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css">
+    <!-- Nunito -->
+    <link rel="stylesheet" href="fonts/Nunito/stylesheet.css" type="text/css">
+    <!-- poppins -->
+    <link rel="stylesheet" href="fonts/poppin/stylesheet.css" type="text/css">
+    <!-- main-css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- max-css -->
+    <link rel="stylesheet" href="css/max.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+    <body>
+        
+        <!-- header -->
+
+        <header>
+            <div class="container">
+               <div class="d-flex justify-between align-center">
+                    <div class="logo">
+                        <a href="javascript:void(0)">Daksha</a>
+                    </div>
+                    <nav>
+                        <ul class="d-flex">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#edu">Education</a></li>
+                            <li><a href="#research">Research</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#student">Student Work</a></li>
+                            <li><a href="#expert">Experience</a></li>
+                            <li><a href="#skill">Skill</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="toggle">
+                        <a href="javascript:void(0)">
+                            <i class="ri-menu-add-line"></i>
+                        </a>
+                    </div>      
+                    <!-- 🌙 Dark Mode Toggle Button -->
+                    <div class="dark-toggle" id="themeToggle">
+                        <i class="ri-moon-line" id="themeIcon"></i>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <main>
+             
+            <!-- banner -->
+
+            <section class="banner py">
+                <div class="container">
+                    <div class="row justify-center align-center">
+                        <div class="w-2 w-md-1">
+                            <div class="banner-title">
+                                <h1>Hi I'm Daksha</h1>
+                                <h2>Asst. Professor<span id="changingText"></span></h2>
+                            </div>
+                            <div class="btn-box">
+                                <a href="https://drive.google.com/file/d/1cKlDHTGby6zbOkFLQ1XgHI06WUrRXlpw/view?" target="_blank">Download CV <i class="ri-download-2-line"></i></a>
+                            </div>
+                            <div class="social-media">
+                                <div class="bg-icon">
+                                    <a href=" https://www.linkedin.com/in/daksha-borada-2839037b" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                                    <span></span>
+                                </div>
+                                <div class="bg-icon">
+                                    <a href="https://github.com/settings/profile" target="_blank"><i class="ri-github-fill"></i></a>
+                                    <span></span>
+                                </div>
+                                <div class="bg-icon">
+                                  <a href="https://orcid.org/0009-0005-4785-4032" target="_blank" class="orcid-btn">
+                                    <svg class="orcid-svg" viewBox="0 0 24 24">
+                                      <path fill="currentColor"
+                                        d="M16.96 8.4c-.21-.69-.53-1.3-.97-1.83-.44-.53-1.01-.95-1.7-1.25-.69-.3-1.52-.45-2.49-.45H7.5V19h4.36c.97 0 1.8-.15 2.49-.45.69-.3 1.26-.72 1.7-1.25.44-.53.76-1.14.97-1.83.21-.69.31-1.45.31-2.27v-2.26c0-.82-.1-1.58-.31-2.27ZM14.8 13.2c0 .96-.25 1.7-.74 2.22-.49.52-1.21.78-2.16.78H9.9V7.8h2c.95 0 1.67.26 2.16.78.49.52.74 1.26.74 2.22v2.4ZM6.1 7.8H4.5V19h1.6V7.8Z"/>
+                                    </svg>
+                                  </a>
+                                  <span></span>
+                                </div>
+
+                                <div class="bg-icon">
+                                    <a href="diyaborda1@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-2 w-md-1">
+                            <div class="img-hero">
+                                <img src="images/about.jpg" alt="about" width="100%">
+                                <div class="rotate-text">
+                                    <div class="text">
+                                        <p></p>
+                                    </div>
+                                    <span><i></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dots"></div>
+            </section>
+
+            <!-- About -->
+
+            <section class="py" id="about">
+                <div class="container">
+                    <div class="about-title text-center">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="row justify-center align-center">
+                        <div class="w-2 w-lg-1 w-md-1 ">
+                            <div class="about-image">
+                                <img src="images/about-image.png" alt="about-image" width="100%">
+                            </div>
+                        </div>
+                        <div class="w-2 w-lg-1 w-md-1">
+                            <div class="about-content">
+                                <h2>Assistant Professor and Former Game Developer Based in India</h2>
+                                <p>I am an Assistant Professor and Unity Game Developer with over 5 years of industry experience in designing immersive, 
+                                    high-performance gaming experiences. My career blends academic excellence with real-world development, 
+                                    enabling me to bridge the gap between theory and practical application for my students.<br>
+                                    
+                                    With strong expertise in Unity, game design, scripting, and performance optimization, 
+                                    I develop cross-platform games focused on engaging gameplay and seamless user experiences. 
+                                    I am proficient in C#, C, and C++, and continuously stay updated with emerging technologies in interactive media.<br>
+
+                                    As an educator, I am passionate about hands-on learning and mentoring students to build industry-ready skills 
+                                    through creativity, innovation, and critical thinking. Whether in the classroom or development studio, 
+                                    my goal is to create impactful experiences that inspire growth and excellence.</p>
+                               <div class="d-flex about-item">
+                                   
+                                    <ul>
+
+                                         <li>Name: <span> Daksha Borada</span></li>
+                                         <li>Email: <span> diyaborda1@gmail.com</span></li>
+                                         <li>Phone: <span> +91 9033555198</span></li>
+                                         <!-- <li>Date of birth:<span>4th,august 1992</span></li> -->
+                                         <!-- <li>Address:<span>Surat Gujarat , India</span></li> -->
+                                         <!--<li>Zip code:<span>1000</span></li> -->
+                                    
+                                    </ul>
+       
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <!-- Education -->
+
+            <section class="py education" id="edu">
+                <div class="container">
+                    <div class="edu-title text-center">
+                        <h2>My Education</h2>
+                    </div>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="image">
+                                <img draggable="false" src="images/iilm.jpg" alt="PHD_IILM" width="100%">
+                            </div>
+                            <div class="content">
+                                <h3>PHD IN COMPUTER APPLICATION</h3>
+                                <p>IILM UNIVERSITY</p>
+                                <h4>2024 | Pursuing</h4>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="image">
+                                <img draggable="false" src="images/school.jpg" alt="school" width="100%">
+                            </div>
+                            <div class="content">
+                                <h3>MASTER OF COMPUTER APPLICATION</h3>
+                                <p>The Oxford College of Engineering</p>
+                                <p>VTU</p>
+                                <h4>2013-2016 | Completed</h4>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="image">
+                                <img draggable="false" src="images/college.jpg" alt="collage" width="100%">
+                            </div>
+                            <div class="content">
+                                <h3>BECHALOR OF COMPUTER APPLICATION</h3>
+                                <p>Sutex Bank College of Computer Applications and Science</p>
+                                <p>VNSGU</p>
+                                <h4>2010-2013 | Completed</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+
+          <!-- Research Section -->
+            <section class="py research" id="research">                
+                <div class="container">
+            
+                <div class="research-title text-center">
+                  <h2>Research</h2>
+                  <p class="research-sub">Selected Publications & Contributions</p>
+                </div>
+            
+                <!-- Filters -->
+                <div class="research-filters">
+                  <button class="filter-btn active" data-filter="all">All</button>
+                  <button class="filter-btn" data-filter="journal">Journals</button>
+                  <button class="filter-btn" data-filter="conference">Conferences</button>
+                  <button class="filter-btn" data-filter="book">Books / Chapters</button>
+                  <button class="filter-btn" data-filter="patent">Patents</button>
+                </div>
+            
+                <!-- Journal Publication -->
+                <div class="research-card" data-category="journal">
+                
+                    <div class="research-icon">📄</div>
+                
+                    <div class="research-content">
+                        <h3>Efficient Data Sharding Techniques for High-Scalability Applications</h3>
+                        <p class="research-type">
+                            Integrated Journal for Research in Arts and Humanities, Vol 4(6), 2024
+                        </p>
+                        <p class="research-authors">
+                            Authors: Srinivasan Jayaraman, Daksha Borada
+                        </p>
+                    </div>
+                
+                    <div class="research-date">2024</div>
+                
+                    <a href="https://doi.org/10.55544/ijrah.4.6.25" target="_blank" class="research-btn">
+                        View Paper
+                    </a>
+                
+                </div>
+            
+            
+                <!-- Conference Publication -->
+                <div class="research-card" data-category="conference">
+                
+                    <div class="research-icon">🎤</div>
+                
+                    <div class="research-content">
+                        <h3>Enhancing Code Modularity and Game Mechanics in Modern Game Development</h3>
+                        <p class="research-type">
+                            International Conference on Cognitive Computing in Engineering, 
+                            Communications, Sciences and Biomedical Health Informatics (IC3ECSBHI)
+                        </p>
+                        <p class="research-authors">
+                            Authors: Daksha Borada, Reeta Mishra, Padmesh Tripathi
+                        </p>
+                    </div>
+                
+                    <div class="research-date">2025</div>
+                
+                    <a href="https://scholar.google.com/citations?user=CDuSHUwAAAAJ" target="_blank" class="research-btn">
+                        View Details
+                    </a>
+                
+                </div>
+            
+            
+                <!-- Research Area / Book Chapter -->
+                <div class="research-card" data-category="book">
+                
+                    <div class="research-icon">📚</div>
+                
+                    <div class="research-content">
+                        <h3>Game Development Architecture and Modular Programming Techniques</h3>
+                        <p class="research-type">
+                            Research focused on scalable Unity game systems and modular architecture.
+                        </p>
+                        <p class="research-authors">
+                            Author: Daksha Borada
+                        </p>
+                    </div>
+                
+                    <div class="research-date">Ongoing</div>
+                
+                    <a href="https://scholar.google.com/citations?user=CDuSHUwAAAAJ" target="_blank" class="research-btn">
+                        View Details
+                    </a>
+                
+                </div>
+            
+            
+                <!-- Patent / Innovation -->
+                <div class="research-card" data-category="patent">
+                
+                    <div class="research-icon">🏅</div>
+                
+                    <div class="research-content">
+                        <h3>Game-Based Interactive Learning System</h3>
+                        <p class="research-type">
+                            Research initiative exploring immersive learning through interactive game technologies.
+                        </p>
+                        <p class="research-authors">
+                            Inventor: Daksha Borada
+                        </p>
+                    </div>
+                
+                    <div class="research-date">In Progress</div>
+                
+                    <a href="https://scholar.google.com/citations?user=CDuSHUwAAAAJ" target="_blank" class="research-btn">
+                        View Details
+                    </a>
+                
+                </div>
+            
+                </div>
+            </section>
+             
+            <!-- Work -->
+            <section class="py work" id="work">
+                <div class="container">
+                    <div class="work-title text-center">
+                        <h2>My Work</h2>
+                    </div>
+                    <div class="row">
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Car Road Cross Rescue</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=happy.car.roadcross.rescue"
+                                       target="_blank"><img src="images/8.jpeg" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Web Design</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=com.lipstick.rush"
+                                       target="_blank"><img src="images/10.jpeg" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Hide N Seek Challenge</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=com.hidenseek.challenge"
+                                       target="_blank"><img src="images/11.jpeg" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Slither vs Circles: All in One</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=jt.slither.blocks"
+                                       target="_blank"><img src="images/unnamed.webp" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Indian Local Train Simulator</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=kaooi.oaii.indianlocaltraingame"
+                                       target="_blank"><img src="images/unnamed (2).webp" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Krishna Run for Adventure 2022</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=com.et.krishnarun"
+                                       target="_blank"><img src="images/unnamed (1).webp" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Parking Puzzle 3D</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=com.beatmaster.parkingpuzzle"
+                                       target="_blank"><img src="images/unnamed (3).webp" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Indian Express Train Simulator</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=kaooi.oaii.indiantrainwalagame"
+                                       target="_blank"><img src="images/unnamed (4).webp" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3 w-md-2 w-xl-1">
+                            <div class="work-item d-flex">
+                                <div class="work-content">
+                                    <h3>Superhero Glitter Coloring Boo</h3>
+                                </div>
+                                <div class="work-img">
+                                    <a href="https://play.google.com/store/apps/details?id=happy.car.roadcross.rescue"
+                                       target="_blank"><img src="images/13.jpeg" alt="image" width="100%"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- student-work -->
+            <section class="py blog" id="student">
+                <div class="container">
+                    <div class="blog-title text-center">
+                        <h2>Student-Work</h2>
+                    </div>
+                    <div class="autoplay">
+                        <!-- 1 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/14.png" alt="img-14" width="100%" height="98%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Cube Collect</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1IXGe7ls1YAJxOMswNgZUU5pDOFwLjuYv/view?usp=sharing"
+                                       target="_blank"><img src="images/15.png" alt="img-15" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Helix Jump</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1mGNxfE0b85-ZpSfCw_gAgZZ3viqLQfp6/view?usp=sharing"
+                                       target="_blank"><img src="images/16.png" alt="img-16" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>BallSort</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/17.png" alt="img-17" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Catch The Cat</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/18.png" alt="img-18" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Maths Quiz</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/19.png" alt="img-19" width="92%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Quiz Puzzle</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/20.png" alt="img-20" width="98%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Stack Smash</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/21.png" alt="img-21" width="99%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Snake Game</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/22.png" alt="img-22" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Color Stack</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 10 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/23.png" alt="img-23" width="98%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Brick Breaker</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 11 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/24.png" alt="img-24" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Tic Tac Toe Multiplayer</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 12 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/25.png" alt="img-25" width="99%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Space Shooter</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 13 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/26.jpeg" alt="img-26" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Block Jam 3D</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 14 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/27.jpeg" alt="img-27" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Tall Man Run</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 15 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/28.jpg" alt="img-28" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Traffic Jam 3D</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 16 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/29.jpg" alt="img-29" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Join blob 3D</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 17 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/30.jpg" alt="img-30" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>HillClimb</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 18 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/311.jpg" alt="img-311" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>OnnetConnection</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 19 -->
+                        <div class="w-3 w-md-2">
+                            <div class="blog-content">
+                                <div class="card-top">
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank"><img src="images/322.jpg" alt="img-322" width="100%"></a>
+                                </div>
+                                <div class="card-info">
+                                    <h3>Stack Desh</h3>
+                                    <a href="https://drive.google.com/file/d/1n1Lj17hGyF4qct2EcngUx0-VE5YtWtmx/view?usp=sharing"
+                                       target="_blank" class="button-86">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- EXPERIENCE -->
+
+            <section class="py experience" id="expert">
+              <div class="container">
+            
+                <div class="passion-title text-center">
+                  <h2>Experience</h2>
+                </div>
+            
+                <div class="experience-list">
+                
+                  <div class="exp-card">
+                    <h3>ASSISTANT PROFESSOR</h3>
+                    <span>IILM University</span>
+                    <p>2024 - Present</p>
+                  </div>
+              
+                  <div class="exp-card">
+                    <h3>GAME DEVELOPMENT TRAINER</h3>
+                    <span>Red and White Institute</span>
+                    <p>2022 - 2024</p>
+                  </div>
+              
+                  <div class="exp-card">
+                    <h3>GAME DEVELOPER</h3>
+                    <span>Escrow Infotech</span>
+                    <p>2018 - 2022</p>
+                  </div>
+                  
+                  <div class="exp-card">
+                    <h3>ANDROID DEVELOPER</h3>
+                    <span>Redbird Technology</span>
+                    <p>2017 - 2018</p>
+                  </div>
+                  
+                  <div class="exp-card">
+                    <h3>WEB DEVELOPER</h3>
+                    <span>EtaServe Technology</span>
+                    <p>2016 - 2017</p>
+                  </div>
+              
+                </div>
+              </div>
+            </section>
+                                        
+        <!-- skill -->
+
+            <section class="py" id="skill">
+                <div class="skill-title text-center">
+                    <h2>My Skill</h2>
+                </div>
+            
+                <div class="talent">
+                    <div class="container">
+                        <div class="row">
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/image2.png" width="25"> Unity</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/image2.png" width="25"> Unity AR Foundation</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/image2.png" width="25"> Unity VR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/images5.png" width="25"> GitHub</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/images7.png" width="30"> Google AdMob</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/photon2.png" width="25"> Photon</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/firebase2.png" width="30"> Firebase</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/images10-removebg-preview.png" width="30"> C#</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/c+++-removebg-preview.png" width="30"> C++</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/c.png" width="30"> C</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/DSA.png" width="30"> DSA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/JAVA.png" width="30"> Java</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/GIT_0.png" width="30"> Git</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/facebook-ad.png" width="30"> Facebook Ads</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="w-3 w-md-2 w-xl-3">
+                                <div class="skill-content">
+                                    <div class="skill-logo">
+                                        <span><img src="images/sql.png" width="30"> SQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Contact -->
+
+            <section class="py contact" id="contact">
+                <div class="container">
+                    <div class="contact-title text-center">
+                        <h2>Contact Me</h2>
+                    </div>
+                
+                    <div class="row justify-center">
+                        <div class="w-2 w-md-1">
+                            <div class="contact-box">
+                                                         
+                                <form class="contact-form">
+                                    <input type="text" placeholder="Your Name" required>
+                                    <input type="email" placeholder="Your Email" required>
+                                    <input type="text" placeholder="Subject">
+                                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                                    <button type="submit">Send Message</button>
+                                    <button type="button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSe1zNFPm_123KmMBl2apcOWBmt1VqPafF7_KR4mU6cCqB6fmg/viewform', '_blank')">
+                                        Contact via Google Form
+                                    </button>
+                                </form>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         <!-- Footer -->
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <p>© 2026 Daksha Borada. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </footer>                                      
+                                       
+</main>
+        
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+
+        <!-- Slick Slider -->
+        <script src="js/slick.js"></script>
+
+        <!-- Particles Library -->
+        <script src="js/particles.min.js"></script>
+
+        <!-- Main Custom Script -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
